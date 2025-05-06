@@ -1,0 +1,46 @@
+.carte{
+    background-color: rgb(89, 27, 39);
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(255, 70, 84);
+    transition: 0.3s ease;
+}
+.carte:hover{
+    box-shadow: 0px 0px 15px white;
+}
+.carte p{
+    font-weight: bold;
+    color: white;
+}
+.carte button{
+    background-color: rgb(255, 70, 84);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+.carte button:hover{
+    box-shadow: 0px 0px 15px white;
+}
+#img1{
+    height: 200px;
+    border-radius: 20px;
+}
+section{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 450px;
+}
