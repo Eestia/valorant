@@ -37,10 +37,10 @@
     height: 200px;
     border-radius: 20px;
 }
-section{
-    padding-top: 90px;
+#section-cards{
+    padding-top: 80px;
+    gap: 100px;
     display: flex;
     justify-content: center;
-    gap: 100px;
     height: 450px;
 }

@@ -4,7 +4,7 @@ import Unrank from '../../assets/Unrank.png';
 import Spike from '../../assets/Spike.png';
 export default function Cards(){
     return(
-        <section>
+        <section id='section-cards'>
             <div className='carte'>
                 <div>
                     <img id='img1' src={ranked} alt="ranked" />

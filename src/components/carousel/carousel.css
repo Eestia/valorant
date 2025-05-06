@@ -1,0 +1,56 @@
+.carousel-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-container h2 {
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+#carou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-buttons button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 70, 84);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.carousel-buttons button:active{
+    background-color: rgb(205, 38, 52);
+}
+@keyframes glow {
+    0% {
+      filter: drop-shadow(0 0 0 white);
+    }
+    50% {
+      filter: drop-shadow(0 0 25px white);
+    }
+    100% {
+      filter: drop-shadow(0 0 0 white);
+    }
+  }
+  
+  .flash {
+    animation: glow 0.4s ease;
+  }
+  
+  .carousel-img {
+    height: 700px;
+    height: auto;
+    transition: filter 0.3s ease;
+  }
+  
+   
