@@ -1,0 +1,44 @@
+#spray-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    color: white;
+    flex-direction: column;
+    font-family: monospace;
+}
+#spray-section h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.spray-info{
+    display: flex;
+    gap: 100px;
+}
+.spray-info img{
+    height: 350px;
+}
+.spray-card {
+    position: relative;
+}
+.info-hover {
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+    width: 300px;
+    height: 350px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.spray-card:hover .info-hover {
+    opacity: 1;
+}
