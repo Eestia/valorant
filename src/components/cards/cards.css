@@ -44,7 +44,7 @@
     justify-content: center;
     height: 450px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .carte{
         background-color: rgb(89, 27, 39);
         width: 120px;
