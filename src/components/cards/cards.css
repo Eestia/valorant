@@ -47,11 +47,26 @@
 @media screen and (max-width: 600px) {
     .carte{
         background-color: rgb(89, 27, 39);
-        width: 120px;
-        height: 250px;
+        width: 90px;
+        height: 190px;
     }
     #img1{
-        height: 120px;
+        height: 90px;
         border-radius: 20px;
+    }
+    #section-cards{
+        padding-top: 80px;
+        gap: 50px;
+        display: flex;
+        justify-content: center;
+        height: 450px;
+    }
+    .carte p{
+        font-size: 12px;
+    }
+    .carte button{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
     }
   }

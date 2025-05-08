@@ -75,9 +75,11 @@
     .carousel-buttons button{
     margin-left: 0px;
     margin-right: 0px;
+    font-size: 12px;
+    padding: 10px;
   }
-  .carousel-img {
-    width: 450px;
+    .carousel-img {
+    width: 350px;
     margin: 0px;
     padding: 0px;
   }

@@ -64,5 +64,9 @@
         padding-bottom: 10px;
         padding-left: 10px;
     }
+    .spray-info{
+        display: flex;
+        gap: 20px;
+    }
   }
   
