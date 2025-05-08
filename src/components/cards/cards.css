@@ -44,3 +44,14 @@
     justify-content: center;
     height: 450px;
 }
+@media screen and (max-width: 768px) {
+    .carte{
+        background-color: rgb(89, 27, 39);
+        width: 120px;
+        height: 250px;
+    }
+    #img1{
+        height: 120px;
+        border-radius: 20px;
+    }
+  }

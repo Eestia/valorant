@@ -6,6 +6,7 @@
     color: white;
     flex-direction: column;
     font-family: monospace;
+    padding-bottom: 45px;
 }
 #spray-section h2{
     font-size: 30px;
@@ -42,3 +43,26 @@
 .spray-card:hover .info-hover {
     opacity: 1;
 }
+@media screen and (max-width: 768px) {
+    .spray-info img{
+        height: 120px;
+    }
+    .info-hover {
+        position: absolute;
+        bottom: 0px;
+        width: 200px;
+        height: 210px;
+        width: 90px;
+    }
+    .info-hover h2 {
+        font-size: 25px !important;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .info-hover ul {
+        font-size: 6px !important;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+  }
+  

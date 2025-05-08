@@ -48,9 +48,38 @@
   }
   
   .carousel-img {
-    height: 700px;
-    height: auto;
     transition: filter 0.3s ease;
   }
+  .horizontal-layout {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
   
-   
+  .carousel-img {
+    width: 650px;
+    height: auto;
+    transition: filter 0.3s ease;
+    border-radius: 15px;
+  }
+  
+  .carousel-text {
+    color: white;
+    font-family: monospace;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .carousel-buttons button{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .carousel-img {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+  }
+  }
+  

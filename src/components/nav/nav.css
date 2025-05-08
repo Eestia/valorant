@@ -36,3 +36,12 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+@media screen and (max-width: 600px) {
+    nav h2{
+        font-weight: bold;
+        font-size: 20px;
+    }
+  }
+  nav ul li a{
+    font-size: 16px;
+}
